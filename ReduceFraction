@@ -1,0 +1,9 @@
+def ReduceFraction(a, b):
+    if a % b == 0:
+        print(x // b, y // b)
+    else:
+        ReduceFraction(b, a % b)
+
+x = int(input())
+y = int(input())
+ReduceFraction(y, x)
